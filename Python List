@@ -1,0 +1,11 @@
+import numpy
+
+happyface=[1,2,3,4]
+smily=numpy.array(happyface)
+
+print(smily)
+
+fruits=["apple","banana"]
+fruits2=["orange","melon"]
+fruits3=[fruits,fruits2]
+print(fruits3)
