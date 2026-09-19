@@ -1,4 +1,3 @@
-import math
 #Title: free flow speed calculator for basic highway segment
 print("Free Flow Speed Calculator for a Basic Highway Segement Per NCEES 2026")
 
