@@ -1,5 +1,5 @@
 #Title: free flow speed calculator for basic highway segment
-print("Free Flow Speed Calculator for a Basic Highway Segement Per NCEES 2026")
+print("Free Flow Speed Calculator for a Basic Highway Segment Per NCEES 2026")
 
 #ask user for inputs
 BFFS=float(75.4)
