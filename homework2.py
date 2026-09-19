@@ -2,7 +2,7 @@
 print("Free Flow Speed Calculator for a Basic Highway Segment Per NCEES 2026")
 
 #ask user for inputs
-BFFS=float(75.4)
+BFFS=(75.4)
 flw=float(input("Enter the lane width adjustment (mph)"))
 frlc=float(input("Enter the right-side lateral clearane adjustment (mph)"))
 TRD=float(input("Enter the total ramp density (ramps per mile)"))
