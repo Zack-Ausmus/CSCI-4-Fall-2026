@@ -26,13 +26,13 @@ three_var = [ [True , True , True ],
 def formula_two():
     for row in three_var:
         #analyze (q or r) first
-        if row[0] and row[1] == False:
+        if row[1] == False and row[2] == False:
             row.append(False)
         else:
             row.append(True)
 
         #analyze p implies next
-        if row [2] == True and row[3] == False:
+        if row [0] == True and row[3] == False:
             row.append(False)
         else:
             row.append(True)
